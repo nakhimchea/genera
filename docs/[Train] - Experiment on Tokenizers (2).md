@@ -1,4 +1,4 @@
-[Train] Experiment on Tokenizers (2)
+# [Train] Experiment on Tokenizers (2)
 
 * Purpose: To explore how different tokenizers process Khmer text and see which we should use for token evaluation.
 * Outcome: PrahokBART Tokenizer is selected as our baseline tokenizer because:

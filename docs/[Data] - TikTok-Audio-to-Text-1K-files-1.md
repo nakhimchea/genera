@@ -37,10 +37,10 @@
 ## Architecture
 
 ### Master
-![Master Workflow](Image-1-placeholder)
+![Image](../images/data/32.png)
 
 ### Slave
-![Slave Workflow](Image-2-placeholder)
+![Image](../images/data/33.png)
 
 ### Transcript Data Output:
-![Output Data](Image-3-placeholder)
+![Image](../images/data/34.png)

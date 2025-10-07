@@ -3,7 +3,7 @@
 The task is to revise the n8n workflow to generate a multi-turn chat data structure and to generate a single chat data structure from multi-turn output.
 
 ## Master workflow:
-![Master Workflow](image1.png)
+![Image](../images/data/23.png)
 
 ## Slave workflow:
-![Slave Workflow](image2.png)
+![Image](../images/data/24.png)

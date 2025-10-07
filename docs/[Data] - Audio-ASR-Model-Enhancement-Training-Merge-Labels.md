@@ -23,4 +23,4 @@ So the FINAL is:
 * Dev: 21 folders (15,664 files, 3.36GB, about 31 hours)
 * Test: 16 folders (20,825 files, 5.50GB, about 51 hours)
 
-![Dataset Properties](image-reference)
+![Image](../images/data/12.png)

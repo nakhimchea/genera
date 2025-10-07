@@ -1,4 +1,4 @@
-[Data] TikTok - Automate Cleaning Text from 1K files (1)
+# [Data] TikTok - Automate Cleaning Text from 1K files (1)
 
 Prompt Deepseek:
 You are an expert in cleaning and preparing transcript data for Khmer, English, and Chinese languages. Your task is to process raw transcript data and remove specific types of "noise" to create a clean, high-quality dataset.
@@ -23,7 +23,7 @@ Output content: Hello, how are you?
 Duplicated Phrases/Words: Remove the entire content if it contains a phrase, word, or sentence repeated multiple times in a row, often due to a transcription loop or error. This type of error is characterized by lengthy, redundant text.
 Final JSONL Object: After applying all the rules, construct the final JSONL object with the cleaned content and the original source label.
 Here is the text to clean:   {{ $json["content"] }}
-￼<Image 1>
+![Image](../images/data/30.png)
 Audio Data Cleaning Summary
 A total of 1,000 audio files were processed for transcription and cleaning. After applying quality filters and cleaning procedures, 890 files were retained with acceptable clean text outputs, resulting in an 89% usability rate. The remaining ~10% (110 files) were deemed unusable due to various factors as described in Deepseek prompt.
 Tokenization Summary

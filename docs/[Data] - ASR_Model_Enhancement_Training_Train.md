@@ -25,7 +25,7 @@ merge test and dev text with the 876k augmented training text
 
 Train and valid objective plot:
 
-![Training Progress Visualization](training_progress.png)
+![Image](../images/data/11.png)
 
 ### Second training
 (for 50 epoch, same setup as above) best WER is 5.54 so we will use first training model instead.

@@ -1,4 +1,4 @@
-[Data] Khmer Raw Data Embedding to Vector Qdrant
+# [Data] Khmer Raw Data Embedding to Vector Qdrant
 
 * Purpose: Implement a pipeline to embed raw Khmer textual data into dense vectors using E5-Large (1024-d) and store them in Qdrant for semantic search, deduplication, and downstream QA dataset preparation.
 * Process Flow: 

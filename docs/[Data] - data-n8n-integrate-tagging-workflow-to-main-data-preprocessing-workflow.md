@@ -51,5 +51,5 @@ You must select up to THREE most relevant categories from this list:
 
 ## Workflow Images
 
-![Image 1](image1)
-![Image 2](image2)
+![Image](../images/data/20.png)
+![Image](../images/data/21.png)

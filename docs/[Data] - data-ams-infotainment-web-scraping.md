@@ -4,4 +4,4 @@ Task: To scrape text data from ams infotainment website articles using the Spide
 
 Total article scraped: 747 articles
 
-![AMS Infotainment JSONL Data](image-placeholder)
+![Image](../images/data/17.png)

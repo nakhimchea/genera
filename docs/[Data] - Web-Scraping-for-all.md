@@ -1,4 +1,4 @@
-[Data] Web Scraping for all
+# [Data] Web Scraping for all
 
 Task: To scrape text data from various website articles using the Spider framework and Trafilatura. The data will be stored in JSONL format with the following fields: category, title, content, and source.
 In Progress:

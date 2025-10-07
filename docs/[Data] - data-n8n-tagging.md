@@ -1,11 +1,11 @@
-[Data] n8n - Tagging
+# [Data] n8n - Tagging
 
 * Purpose: automated to tag Khmer text by reading content and assigning categories.
 * Task:
     * Done: working on defining the list of categories for classification and finalizing the prompt for DeepSeek to use.
     * In progress: setup n8n workflow to tag on post-preprocessing 500k data, ensure that 1 item has no more than 3 tags
 	
-￼<Image 1>
+![Image](../images/data/22.png)
 
 * Prompt: 
 You are a Khmer language expert specialized in creating high-quality Khmer datasets. Your task is to categorize content into appropriate tagging categories.

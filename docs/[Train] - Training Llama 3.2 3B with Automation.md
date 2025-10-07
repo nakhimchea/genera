@@ -17,9 +17,9 @@ Both model training with:
 ## Summary Training Result on Mlflow:
 
 ### 1. Llama3.2 3B Instruct Model
-![Llama3.2 3B Instruct Model - Run Details](image-1)
-![Llama3.2 3B Instruct Model - Experiment Comparison](image-2)
+![Image](../images/train/5.png)
+![Image](../images/train/6.png)
 
 ### 2. Llama3.2 3B Based Model
-![Llama3.2 3B Based Model - Run Details](image-3)
-![Llama3.2 3B Based Model - Experiment Comparison](image-4)
+![Image](../images/train/7.png)
+![Image](../images/train/8.png)

@@ -6,4 +6,4 @@ Total articles: 698 articles
 
 Token: Pending (waiting phearun to finalize on tokenize method)
 
-<Image 1>￼
+![Image](../images/data/2.png)

@@ -25,4 +25,4 @@
         ```
 
 * **Output:**  
-    ￼<Image 1>
+    ![Image](../images/data/25.png)

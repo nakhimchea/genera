@@ -4,7 +4,7 @@
 
 ## API Health Check
 
-![Health Check Response](image1.png)
+![Image](../images/data/35.png)
 
 **Endpoint:** `GET http://localhost:8000/health`
 
@@ -17,7 +17,7 @@ Response shows:
 
 ## HDFS File Listing
 
-![HDFS Files Response](image2.png)
+![Image](../images/data/36.png)
 
 **Endpoint:** `GET {{base_url}}/files`
 
@@ -30,7 +30,7 @@ Response shows list of files in HDFS:
 
 ## HBase Table Listing
 
-![HBase Tables Response](image3.png)
+![Image](../images/data/37.png)
 
 **Endpoint:** `GET {{base_url}}/hbase/tables`
 

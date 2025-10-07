@@ -4,7 +4,7 @@
 * Setup and install dependencies directly in the RunPod. 
 * Airflow Dag testing. 
 
-![Airflow DAG Visualization](Image_1)
+![Image](../images/train/1.png)
 
 ## Build Airflow & MLflow as docker image
 * Build docker image and push into Docker hub.
@@ -15,5 +15,5 @@
 * Use docker compose to launch both services.
 * Dag scripts to do the task: detect new data → preprocess → start training.
 
-![Training Flow Diagram](Image_2)
-![MLflow Experiments](Image_3)
+![Image](../images/train/2.png)
+![Image](../images/train/3.png)

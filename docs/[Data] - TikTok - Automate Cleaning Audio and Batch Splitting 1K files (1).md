@@ -1,7 +1,7 @@
 # TikTok - Automate Cleaning Audio and Batch Splitting 1K files (1)
 
-![Image 1]
-![Image 2]
+![Image](../images/data/28.png)
+![Image](../images/data/29.png)
 
 * Resampling audio rate into the standard rate: 16khz-mono and 16bit PCM is the best for ASR
 * File type filtering uses file extension to identify valid audio file, non-audio files are removed

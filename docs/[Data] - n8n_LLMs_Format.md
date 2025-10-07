@@ -15,6 +15,6 @@
     * OUTPUT FORMAT: [ {"instruction": "...", "input": "...", "output": "..."}, ... ] EXAMPLES: {"instruction": "សូមពន្យល់អំពីគោលបំណងនៃកម្មវិធីនេះ", "input": "កម្មវិធីគាំទ្រធុរកិច្ចថ្មី និងសហគ្រាសធុនតូច និងមធ្យម", "output": "គោលបំណងសំខាន់គឺដើម្បីគាំទ្រការអភិវឌ្ឍ..."} {"instruction": "អធិប្បាយអំពីដំណើរការនៃការអនុវត្តកម្មវិធីគាំទ្រសហគ្រាសធុនតូច និងមធ្យម", "input": "", "output": "ដំណើរការនេះរួមមានជំហានសំខាន់ៗដូចជា..."} {"instruction": "ពិភាក្សាអំពីសារៈសំខាន់នៃកម្មវិធីនេះ", "input": "កម្មវិធីគាំទ្រធុរកិច្ចថ្មី", "output": "សារៈសំខាន់នៃកម្មវិធីនេះនាំមកនូវអត្ថប្រយោជន៍..."} CONTENT TO PROCESS: {{ $json.content }}
 
 * **Output:** 
-    * [Image 1]
+    * ![Image](../images/data/26.png)
 
 * **Reference:** tatsu-lab/stanford_alpaca: Code and documentation to train Stanford's Alpaca models, and generate the data.

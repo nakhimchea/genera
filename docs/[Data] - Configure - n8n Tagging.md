@@ -1,4 +1,4 @@
-[Data] Configure - n8n Tagging
+# [Data] Configure - n8n Tagging
 
 Purpose: Configure the n8n workflow that automated tag Khmer text to strictly assign multiple tags (3 max).
 
@@ -61,7 +61,7 @@ Return only the JSON object with the tags array
 Content for generation:
 {{ $json.content }}
 
-�<Image 1>
+![Image](../images/data/16.png)
 
 Data output after tagging:
 

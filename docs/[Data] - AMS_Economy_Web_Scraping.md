@@ -6,4 +6,4 @@
 
 **Token:** Pending (waiting phearun to finalize on tokenize method)
 
-![alt text](images/data/1.png)
+![Image](../images/data/1.png)

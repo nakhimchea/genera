@@ -6,12 +6,12 @@ Total audio files = 26442
 
 → train = 21082 audio files
 
-![Train Dataset](image1.png)
+![Image](../images/data/13.png)
 
 → dev = 2683 audio files
 
-![Dev Dataset](image2.png)
+![Image](../images/data/14.png)
 
 → test = 2677 audio files
 
-![Test Dataset](image3.png)
+![Image](../images/data/15.png)

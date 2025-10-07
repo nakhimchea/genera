@@ -1,10 +1,10 @@
-[Train] RunPod - Training Stacks - MLflow
+# [Train] RunPod - Training Stacks - MLflow
 
 Direct deploy MLflow on RunPod
 * Setup and install dependencies directly in the RunPod.
 * Testing simple training scripts with MLflow to tracking experiments.
 
-￼<Image 1>
+![Image](../images/train/4.png)
 
 Run MLflow in Docker locally
 * Set up MLflow services in Docker.
