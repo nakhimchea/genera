@@ -1,2 +1,2 @@
-![alt text](image.png "Sample")
+![alt text](images/data/image_1.png "Sample")
 
