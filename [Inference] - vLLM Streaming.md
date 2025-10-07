@@ -25,7 +25,7 @@ Research and benchmark vLLM's streaming inference for chat applications (OpenAI-
 * **--no-enforce-eager tradeoff**: adding `--no-enforce-eager` allows cuDAGraphs to be used, which improved runtime latency but increases VRAM usage and increases server init time. The higher VRAM and longer cold-start time were acceptable trade-offs for the observed inference latency improvements.
 
 * **Single-request streaming is smooth**: single concurrency runs show low TPOT (~8–10 ms) and low ITL, which produces a fluent token-by-token stream once generation starts — TTFT (~2s) is the main contributor to user-perceived delay in single-user cases.
-
+![Image 1 - Single Request Streaming](image1.png)
 * **High concurrency increases queuing and p99 TTFT**: multi-user scenarios show larger TTFT and E2E (often tens of seconds), even when token throughput is high. That means high aggregate tokens/sec does not directly translate to a smooth per-user streaming experience. Below is demo of during 20 concurrent request 60 input prompts.
-
+![Image 2 - 20 Concurrent Request Streaming](image2.png)
 * **Stop markers / include_stop_str_in_output**: when `include_stop_str_in_output=True` the stop marker will be emitted at the streamed chunks `|<im_end>|` — ensure client post-processing strips/handles it if not desired.
