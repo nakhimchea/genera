@@ -27,7 +27,7 @@ This document provides a comprehensive overview of the Train and Operation pipel
   - Airflow DAGs orchestrate complete training lifecycle
   - Cloudflare tunnels expose services: `https://mlflow.checkitouts.site` and `https://airflow.checkitouts.site`
 - **Workflow**: Create → Start → Monitor → Log → Terminate
-- **Cost Management**: Automatic pod termination prevents unnecessary charges ($0.25/hr for RTX A4000)
+- **Cost Management**: Automatic pod termination prevents unnecessary charges.
 
 #### MLflow Integration
 - **Experiment Tracking**: Complete metrics, parameters, and artifacts logging
@@ -111,7 +111,7 @@ This document provides a comprehensive overview of the Train and Operation pipel
 #### n8n Workflow Automation
 - **Docker Deployment**: Containerized n8n with persistent storage
 - **Configuration**: 
-  - SQLite database backend
+  - Postgres database backend
   - Encryption key management
   - Basic authentication
   - Telemetry disabled
@@ -130,7 +130,6 @@ This document provides a comprehensive overview of the Train and Operation pipel
 
 #### VMWare Clustering
 - **Docker Swarm**: 8-node cluster for testing
-- **Kubernetes Integration**: Container orchestration
 - **Scalable Architecture**: 
   - Single server deployment for core services
   - Horizontal scaling for DataNodes and HRegionServers
@@ -208,10 +207,12 @@ Data Sources → HDFS Storage → HBase Processing → API Services → Applicat
 - **Scalability**: 8-node cluster support
 
 ### Quality Metrics
+1. ASR
 - **ASR Accuracy**: 4.73% WER
+- **System Reliability**: 99.9% uptime
+2. LLMs
 - **Data Quality**: 89% usability rate
 - **Model Performance**: 4.51 BLEU score
-- **System Reliability**: 99.9% uptime
 
 ---
 
@@ -289,7 +290,3 @@ The Train and Operation pipelines represent a significant achievement in automat
 This infrastructure provides a solid foundation for continued innovation and scaling of Khmer language AI capabilities.
 
 ---
-
-*Document prepared for Management Team*  
-*Last updated: January 2025*  
-*Status: Production Ready*

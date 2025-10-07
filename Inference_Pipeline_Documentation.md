@@ -44,11 +44,14 @@ The Inference Pipeline represents a complete, production-ready system for deploy
 
 **Storage Architecture:**
 - Individual JSON files per request for easy analysis
-- Organized by date: `../mac/audit/YYYY-MM-DD/`
+- Organized by date: `../audit/YYYY-MM-DD/`
 - Human-readable format with proper indentation
 - Unique file naming: `chat_completions_<shortid>_<timestamp>.json`
 
 ### 2. Performance Benchmarking & Optimization
+
+vLLM bench serve benchmarks our chat endpoint by sending concurrent requests, tokenizing prompts locally, and measuring TTFT, TPOT, ITL, and E2EL latency. Each run saves JSON results for analysis, enabling quick performance insights under different concurrency levels.
+
 **Achievement Date: Inference-02, Inference-03, Inference-04, Inference-06**
 
 **Key Performance Metrics Achieved:**

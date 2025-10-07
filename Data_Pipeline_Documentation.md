@@ -16,7 +16,7 @@ This document provides a comprehensive overview of the Data Pipeline system deve
   - Wikipedia APIs - 11,196 articles (1,961,047 Khmer tokens)
   - CommonCrawl datasets - 1.2 billion tokens
   - Multiple Khmer news websites (Cambonomist, CamboJa, DAP News, etc.)
-- **Total Volume**: 64.95M tokens from web scraping
+- **Total Volume**: 269.77M tokens from web scraping with published date
 - **Format**: JSONL with fields: category, title, content, source
 
 ### 1.2 TikTok Data Collection
@@ -29,7 +29,6 @@ This document provides a comprehensive overview of the Data Pipeline system deve
 - **ASR Model Enhancement**: Audio-to-text conversion
 - **Data Augmentation**: Speed, noise, volume, pitch modifications
 - **Training Data**: 876K files (170GB, ~1500 hours)
-- **Quality Control**: 26,880 valid audio files after cleaning
 
 ---
 
@@ -68,7 +67,7 @@ This document provides a comprehensive overview of the Data Pipeline system deve
 - **HBase**: NoSQL database for structured data
 - **HDFS**: Distributed file system (5.10GB + 4.49GB datasets)
 - **API Endpoints**: RESTful services for CRUD operations
-- **Scalability**: Docker Swarm and Kubernetes support
+- **Scalability**: Manually manage and scaling.
 
 ### 3.2 Vector Database
 - **Qdrant**: Vector similarity search and deduplication
@@ -101,20 +100,12 @@ This document provides a comprehensive overview of the Data Pipeline system deve
 ---
 
 ## 5. Tokenization and Metrics
-
-### 5.1 Tokenizer Selection
 - **Primary**: PrahokBART tokenizer
 - **Rationale**: 
   - Unicode normalization and Khmer word segmentation
   - Superior performance on Khmer generation tasks
   - Unigram SentencePiece architecture
 - **Comparison**: Tested against Nicolas, Qwen, Llama tokenizers
-
-### 5.2 Token Counting Results
-- **Raw Data**: 861,581 tokens
-- **Trainable QA**: 4,279,726 tokens
-- **Distribution**: 25% instruction, 3% input, 72% output
-- **Total Dataset**: 64.95M tokens across all sources
 
 ---
 
@@ -151,18 +142,9 @@ This document provides a comprehensive overview of the Data Pipeline system deve
 ---
 
 ## 8. Data Quality Metrics
-
-### 8.1 Content Quality
-- **Usability Rate**: 89% for TikTok transcriptions
 - **Deduplication**: Vector similarity-based removal
 - **Validation Accuracy**: Automated fact-checking
 - **Toxicity Filtering**: 15-category classification
-
-### 8.2 Processing Efficiency
-- **Batch Processing**: 1,000 files per batch
-- **Error Recovery**: Automated retry mechanisms
-- **Throughput**: Optimized for large-scale processing
-- **Storage Optimization**: Compressed and indexed data
 
 ---
 
@@ -189,7 +171,6 @@ Format Conversion → Training Data → Model Training
 - **Total Tokens**: 1.2+ billion tokens collected
 - **Web Articles**: 64,000+ articles processed
 - **Audio Files**: 28,000+ hours transcribed
-- **Quality Rate**: 89%+ usability across all sources
 
 ### 10.2 Technical Achievements
 - **Automation**: 100% automated pipeline
@@ -226,6 +207,6 @@ Format Conversion → Training Data → Model Training
 
 ## Conclusion
 
-The Data Pipeline represents a comprehensive, automated system for collecting, processing, and preparing Khmer language data for machine learning applications. With over 1.2 billion tokens processed, 89%+ quality rates, and full automation, the pipeline provides a robust foundation for Khmer LLM development and training.
+The Data Pipeline represents a comprehensive, automated system for collecting, processing, and preparing Khmer language data for machine learning applications. With over 1.2 billion tokens collected, and full automation, the pipeline provides a robust foundation for Khmer LLM development and training.
 
 The system's modular architecture, cloud-native design, and extensive quality controls ensure scalability, reliability, and maintainability for future expansion and enhancement.
