@@ -6,4 +6,4 @@
 
 **Token:** Pending (waiting phearun to finalize on tokenize method)
 
-![Image 1](image_placeholder.png)
+![alt text](images/data/1.png)
